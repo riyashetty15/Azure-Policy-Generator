@@ -163,7 +163,11 @@ Fix:
 1. Run the model-load cell (the one that creates `tok` and `model`).
 2. Restart/re-run the API cell.
 
-## Notes / limitations
+## Notes/limitations
 
 - The dataset includes some inconsistent policy fragments (e.g., booleans as strings). Cleaning those upstream can improve training quality.
 - `infer.py` is a separate/legacy approach (FLAN-T5) and does not reflect the Qwen + QLoRA inference path.
+
+## Output
+
+<img width="1658" height="861" alt="Screenshot 2026-01-03 at 2 02 52 PM" src="https://github.com/user-attachments/assets/892a66ad-0791-44ea-8c69-ad11abb6a120" />
