@@ -1,0 +1,17 @@
+# ---------- Colab notebook (training + serving) ----------
+transformers>=4.44.0
+accelerate
+peft>=0.18.0
+bitsandbytes
+datasets
+sentencepiece
+evaluate
+torch
+fastapi
+uvicorn
+nest-asyncio
+pyngrok
+
+# ---------- Local client (gradio UI + evaluator) ----------
+gradio
+requests
