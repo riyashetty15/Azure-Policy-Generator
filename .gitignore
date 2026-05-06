@@ -4,3 +4,10 @@
 # Python virtual environments
 .venv/
 .veny/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# PDFs
+*.pdf
